@@ -1,0 +1,15 @@
+# 
+# Can be run in batch, without graphic
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfWorkers 4
+#
+# Initialize 
+/control/execute init.mac
+#
+/gps/particle e-
+/gps/position 0 0 2.0 m
+/gps/direction 0 0 -1.
+/gps/energy 2 MeV
+/run/beamOn 1000
+#
